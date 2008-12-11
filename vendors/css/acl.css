@@ -1,0 +1,44 @@
+input {
+  width: auto;
+  display: inline;
+}
+ul.acl li {
+  list-style-type:none;
+}
+div.acl_menu {
+  padding: 10px;
+}
+.acl_select {
+  width: 300px;
+}
+.acl_button {
+  border: 1px solid #999999;
+  cursor: pointer;
+}
+.acl_row_even {
+  background-color: #EEEEEE;
+}
+.acl_row_odd {
+  background-color: #FFFFFF;
+}
+
+.acl_permission_box {
+  text-align: left;
+}
+.acl_permission_title {
+   font-weight: bold;
+   border: 1px solid black;
+   padding: 5px;
+   background-color: #F2F2F2;
+   border-color: #FFFFFF rgb(187, 187, 187) rgb(187, 187, 187) rgb(255, 255, 255);
+   color: black;
+}
+.acl_permission_item {
+  text-align: left;
+  padding: 5px;
+  margin: 5px;
+}
+.acl_permission_link {
+  cursor: pointer;
+  float: right;
+}
