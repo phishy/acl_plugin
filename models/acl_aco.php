@@ -1,6 +1,6 @@
 <?php
 
-class AclAco extends AclNode {
+class AclAco extends AclAppModel {
 	var $useTable = 'acos';
 	var $actsAs = array('Tree');
 	
