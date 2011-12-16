@@ -72,7 +72,7 @@ icons_DATA =				\
 	tab-new.svg			\
 	view-fullscreen.svg		\
 	view-refresh.svg		\
-	window-new.svg	
+	window-new.svg
 
 EXTRA_DIST =				\
 	$(icons_DATA)

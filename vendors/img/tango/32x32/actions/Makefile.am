@@ -73,7 +73,7 @@ icons_DATA =				\
 	tab-new.png			\
 	view-fullscreen.png		\
 	view-refresh.png 		\
-	window-new.png	
+	window-new.png
 
 EXTRA_DIST =				\
 	$(icons_DATA)

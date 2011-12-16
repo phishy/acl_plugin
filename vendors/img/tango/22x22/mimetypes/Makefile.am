@@ -25,7 +25,7 @@ icons_DATA =					\
 	x-office-presentation.png	\
 	x-office-presentation-template.png	\
 	x-office-spreadsheet.png	\
-	x-office-spreadsheet-template.png	
+	x-office-spreadsheet-template.png
 
 EXTRA_DIST =					\
 	$(icons_DATA)
