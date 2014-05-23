@@ -18,7 +18,7 @@
 
 2007-08-10  Jakub Steiner <jimmac@ximian.com>
 
-	* actions/preferences-desktop-multimedia: 
+	* actions/preferences-desktop-multimedia:
 	* apps/preferences-desktop-multimedia: I'm dumb as a doorknob.
 	Should go to the apps context.
 
@@ -36,7 +36,7 @@
 2007-08-10  Jakub Steiner <jimmac@ximian.com>
 
 	* device/media-flash: use a more approachable metaphor. Novell bug
-		#268098 
+		#268098
 
 2007-05-24  Jakub Steiner <jimmac@ximian.com>
 
@@ -51,7 +51,7 @@
 2007-04-03  Jakub Steiner <jimmac@ximian.com>
 
 	* 16x16/emblems/emblem-favorite.svg
-	* 22x22/emblems/emblem-favorite.svg: use vectors to avoid jaggies. 
+	* 22x22/emblems/emblem-favorite.svg: use vectors to avoid jaggies.
 
 2007-03-04  Rodney Dawes  <dobey@novell.com>
 
@@ -101,7 +101,7 @@
 
 	* scalable/actions/edit-undo.svg: screwed up a month ago. Revert.
 		fixes #8187
-		
+
 2006-07-26  Jakub Steiner <jimmac@ximian.com>
 
 	* {32x32,scalable}/actions/view-fullscreen: lighten up the
@@ -138,13 +138,13 @@
 
 	* contact-new*: make slightly darker at smaller resolutions (bug
 		#7500)
-	
+
 2006-07-12  Jakub Steiner <jimmac@ximian.com>
 
-	* 22x22/categories/applications-accessories*: 
+	* 22x22/categories/applications-accessories*:
 	* 22x22/actions/edit-cut*: color and shape fixes based on artwork
 	form sacrat AT gmail DOT com. Fixes #7499
-	
+
 2006-07-07  Rodney Dawes  <dobey@novell.com>
 
 	* scalable/*/Makefile.am: Don't generate 32x32 versions of the icons
@@ -168,7 +168,7 @@
 
 	* 32x32/*: great contribution by Lapo Calamandrei. The new
 	(optional) 32x32 size is in. Including the spinner.
-	
+
 2006-06-12  Jakub Steiner <jimmac@ximian.com>
 
 	* scalable/apps/system-software-update.svg: remove last traces of
@@ -179,12 +179,12 @@
 
 	* 16x16,22x22/devices/printer-remote: has been removed from the
 		naming spec.
-	
+
 2006-05-19  Jakub Steiner <jimmac@ximian.com>
 
 	* face-monkey: cute monkey icon from Ulisse. changed shading
 		slightly.
-	
+
 2006-05-12  Jakub Steiner <jimmac@ximian.com>
 
 	* media-=memory: generic flash memory media
@@ -201,11 +201,11 @@
 2006-04-21  Rodney Dawes  <dobey@novell.com>
 
 	* index.theme.in: Fix typo in context name for 128x128/status
-	
+
 2006-04-21  Rodney Dawes  <dobey@novell.com>
 
 	* AUTHORS: Add Steven Garrity to the list
-	
+
 	* scalable/mimetypes/Makefile.am: Fix broken use of \ followed by a
 	blank line
 
@@ -224,10 +224,10 @@
 
 2006-03-22  Jakub Steiner <jimmac@ximian.com>
 
-	* {16x16/22x22}/actions/go-*: update the small 
-		sized arrows to have the same green. 
+	* {16x16/22x22}/actions/go-*: update the small
+		sized arrows to have the same green.
 	  contributed by Ulisse Perusin <uli.peru@gmail.com>
-					
+
 2006-03-16  Jakub Steiner <jimmac@ximian.com>
 
 	* view-fullscreen: simple, yet clear IMO.
@@ -268,7 +268,7 @@
 	* applications-multimedia, video-x-generic: It makes more sense to
 		swap these two
 	* 22x22/actions/format-text*: use a tango shadow
-	
+
 2006-02-17  Jakub Steiner <jimmac@ximian.com>
 
 	* scalable/status/network*: sync the "active" blue with the
@@ -287,7 +287,7 @@
 2006-02-16  Rodney Dawes  <dobey@novell.com>
 
 	* */status/Makefile.am: Update for new network status icons
-	
+
 	* */status/network-online.*: Remove this icon to be replaced by new
 	network status icons with support for blinking lights and ambiguity
 
@@ -378,7 +378,7 @@
 	* configure.ac: default throbber. Don't really feel like making
 		the scalable version. If somebopdy feels like applying some svg
 		export magick, I can provide the blender source file.
-	
+
 2006-01-20  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Up version to 0.6.6 for release
@@ -430,17 +430,17 @@
 
 	* start-here: more of a placeholder than anything useful.
 	Vendors/Distributions will replace this with some branding anyway.
-	
+
 2006-01-11  Jakub Steiner <jimmac@ximian.com>
 
 	* list-add:
 	* list-remove: add/remove icons submitted by Andreas Nilsson
 	* edit-delete: another submission from Andreas
-	
+
 2006-01-11  Jakub Steiner <jimmac@ximian.com>
 
 	* mail-forward: based on contribution by Garrett LeSage
-	
+
 2006-01-11  Jakub Steiner <jimmac@ximian.com>
 
 	* mail-send-receive: kinda lame
@@ -473,7 +473,7 @@
 2006-01-09  Jakub Steiner <jimmac@ximian.com>
 
 	* edit-find-replace: by Garrett LeSage
-	
+
 2006-01-09  Jakub Steiner <jimmac@ximian.com>
 
 	* mail-reply-sender: contributed by Garrett LeSage (edited)
@@ -482,16 +482,16 @@
 
 	* mail-mark-junk: junk mail icon from Andreas Nilsoon. Slightly
 		touched up
-	
+
 2006-01-09  Jakub Steiner <jimmac@ximian.com>
 
-	* format-text-*: non-framed versions from Lapo 
+	* format-text-*: non-framed versions from Lapo
 
 2006-01-06  Jakub Steiner <jimmac@ximian.com>
 
 	* preferences-desktop-locale: misplaced locale prefs icon (now in
 		apps)
-	
+
 2006-01-06  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Up version to 0.6.4 for release
@@ -500,7 +500,7 @@
 
 	* applications-utilities: removed due to
 		only-jimmac-gets-this-metaphor
-	
+
 2006-01-06  Jakub Steiner <jimmac@ximian.com>
 
 	* help-contents: removed an uglie. better nothing that that :)
@@ -513,7 +513,7 @@
 
 	* device/network-wireless-encrypted: it's already in status
 		(removed)
-	
+
 2006-01-06  Jakub Steiner <jimmac@ximian.com>
 
 	* devices/Makefile.am: fix typo
@@ -552,20 +552,20 @@
 
 	* applications-multimedia: quite poor at 48x48 and 16x16. Needs
 		more work.
-	
+
 2006-01-04  Jakub Steiner <jimmac@ximian.com>
 
 	* applications-internet: while the generic browser icons should
 		perhaps go away from tango base, here's a slightly mac osish
 		internet category
-	
+
 2006-01-04  Jakub Steiner <jimmac@ximian.com>
 
 	* applications-office: finally came to senses and stopped messing
 		around with a typewriter. Maybe a better metaphore but really hard
 		to execute well. This works for me, maybe slightly similar to
 		applications-graphics.
-	
+
 2005-12-21  Jakub Steiner <jimmac@ximian.com>
 
 	* folder-saved-search: for query-based virtual folders
@@ -628,7 +628,7 @@
 
 	* */devices/Makefile.am:
 	* */devices/network.*: Renamed to network-wired
-	
+
 2005-12-07  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Fix the icon-naming-utils check to use pkgconfig and
@@ -654,7 +654,7 @@
 2005-12-06  Jakub Steiner <jimmac@ximian.com>
 
 	* {un,}locked.svg: worked with Lapo's change of perspective.
-	
+
 2005-12-06  Jakub Steiner <jimmac@ximian.com>
 
 	* media-playback-start:
@@ -682,7 +682,7 @@
 	* */actions/directory-new.*: Renamed to folder-new
 
 	* */actions/folder-new.*: Renamed version of directory-new
-	
+
 	* */actions/system-lock-screen.*: Moved here from apps folder
 
 2005-11-29  Jakub Steiner <jimmac@ximian.com>
@@ -691,18 +691,18 @@
 
 2005-11-29  Jakub Steiner <jimmac@ximian.com>
 
-	* accessories-character-map: charmap 
-	
+	* accessories-character-map: charmap
+
 2005-11-29  Andreas Nilsson  <nisses.mail@home.se>
-	
+
 	Fixed the names of the face-kiss emote from face-kiss22 and
 	face-kiss16 to just face-kiss, they should work now.
 
 2005-11-29  Tuomas Kuosmanen  <tigert@tigert.com>
-	
+
 	Realized inkscape had this nifty commandline option to vacuum
 	defs.
-	
+
 	 # du -s -h scalable/actions
 	 # 1.6M
 	 # for i in *.svg; do inkscape --vacuum-defs $i; done
@@ -769,10 +769,10 @@
 2005-11-29  Andreasn Nilsson <nisses.mail@home.se>
 
 	* face-kiss: :-* -emote by Lapo Calamandrei
-	
+
 2005-11-29  Tuomas Kuosmanen  <tigert@tigert.com>
 
-	* scalable/categories/applications-accessories.svg: oopsie, 
+	* scalable/categories/applications-accessories.svg: oopsie,
 	needed a vacuum defs to clean up and remove <svg:svg stuff..
 
 2005-11-29  Jakub Steiner <jimmac@ximian.com>
@@ -802,7 +802,7 @@
 2005-11-21  Rodney Dawes  <dobey@novell.com>
 
 	* AUTHORS: Update tigert's mail address
-	
+
 	* configure.ac: Up version to 0.5.0 for release
 
 2005-11-21  Jakub Steiner <jimmac@ximian.com>
@@ -823,7 +823,7 @@
 
 2005-11-18  Jakub Steiner <jimmac@ximian.com>
 
-	* applications-development: touched up contribution from 
+	* applications-development: touched up contribution from
 	  Henrik Andersen (hender)
 
 2005-11-18  Jakub Steiner <jimmac@ximian.com>
@@ -838,12 +838,12 @@
 
 	* go-*: new color palette fixes by Andreas Nilsson, few shading
 	  fixes
-	
+
 2005-11-16  Jakub Steiner <jimmac@ximian.com>
 
 	* system-lock-screen: too many complaints about the icon looking
 		like an egg. Liked it personally, but ...
-		
+
 2005-11-16  Jakub Steiner <jimmac@ximian.com>
 
 	* mail-message-new:
@@ -868,12 +868,12 @@
 2005-11-14  Jakub Steiner <jimmac@ximian.com>
 
 	* face-devil-grin: >:-D
-	
+
 2005-11-11  Jakub Steiner <jimmac@ximian.com>
 
 	* scalable/actions/go-home.svg: get rid of the svg namespace.
 	  it krashes ze ksvg.
-	
+
 2005-11-10  Jakub Steiner <jimmac@ximian.com>
 
 	* format-text-bold:
@@ -889,17 +889,17 @@
 	* x-directory-normal-open: (new state)
 	* x-directory-remote: based on feedback, disconnect from Novell
 	  dots and make more lively (works better on grey backgrounds too)
-	
+
 2005-11-10  Jakub Steiner <jimmac@ximian.com>
 
 	* image-x-generic: nicer.
-	
+
 2005-11-10  Jakub Steiner <jimmac@ximian.com>
 
 	* document-save:
 	* document-save-as: use a more up-to-date metaphor
 	* media-floppy: use the old save as media icon
-	
+
 2005-11-10  Jakub Steiner <jimmac@ximian.com>
 
 	* locked, unlocked: new status icons from Andreas
@@ -911,7 +911,7 @@
 
 2005-11-10  Tuomas Kuosmanen  <tigert@tigert.com>
 
-	* scalable/apps/help-browser: new metaphor that is probably more 
+	* scalable/apps/help-browser: new metaphor that is probably more
 	universal. First commit to tango with cvs account, yay!
 
 2005-11-10  Jakub Steiner <jimmac@ximian.com>
@@ -938,7 +938,7 @@
 
 2005-11-07  Jakub Steiner <jimmac@ximian.com>
 
-	* document-print-preview: 
+	* document-print-preview:
 	* window-new: submitted by Corey Woodworth
 
 2005-11-06  Rodney Dawes  <dobey@novell.com>
@@ -948,11 +948,11 @@
 2005-11-04  Jakub Steiner <jimmac@ximian.com>
 
 	* computer: sync the blues ;)
-	
+
 2005-11-04  Jakub Steiner <jimmac@ximian.com>
 
 	* document-open: fixes by Lapo Calamandrei
-	
+
 2005-11-04  Jakub Steiner <jimmac@ximian.com>
 
 	* document-open: hopefully this works
@@ -1022,7 +1022,7 @@
 2005-10-28  Jakub Steiner <jimmac@ximian.com>
 
 	* edit-undo, edit-redo: yellow goodness
-	
+
 2005-10-28  Jakub Steiner <jimmac@ximian.com>
 
 	* scalable/actions/go-last.svg
@@ -1033,7 +1033,7 @@
 2005-10-27  Jakub Steiner <jimmac@ximian.com>
 
 	* */actions/Makefile.am: forgot to add edit-copy, thanks Steven!
-	
+
 2005-10-26  Jakub Steiner <jimmac@ximian.com>
 
 	* edit-copy: almost no touchups needed on this one. Good job
@@ -1050,7 +1050,7 @@
 2005-10-25  Jakub Steiner <jimmac@ximian.com>
 
 	* go-bottom, go-top, go-first, go-last: more arrows
-	
+
 2005-10-24  Jakub Steiner <jimmac@ximian.com>
 
 	* AUTHORS: add Andreas
@@ -1084,12 +1084,12 @@
 2005-10-19  Jakub Steiner <jimmac@ximian.com>
 
 	* evolution: removed. Specific app icons don't belong here
-	
+
 2005-10-18  Jakub Steiner <jimmac@ximian.com>
 
 	* utilities-terminal: another submission from Andreas, touched up
 	  just a tiny little bit.
-	
+
 2005-10-18  Jakub Steiner <jimmac@ximian.com>
 
 	* process-stop: based on Andreas Nilsson's work
@@ -1097,11 +1097,11 @@
 2005-10-17  Jakub Steiner <jimmac@ximian.com>
 
 	* emblem-favorites: new addition.
-	
+
 2005-10-17  Jakub Steiner <jimmac@ximian.com>
 
 	* bookmark-new: action icon for creating bookmarks.
-	
+
 2005-10-17  Rodney Dawes  <dobey@novell.com>
 
 	* AUTHORS: Fix Jakub's e-mail address
@@ -1109,7 +1109,7 @@
 2005-10-17  Jakub Steiner <jimmac@ximian.com>
 
 	* drive-removable-media: orange didn't score much. back to grey
-	
+
 2005-10-17  Jakub Steiner <jimmac@ximian.com>
 
 	* 22x22/apps/computer.png: used the old color for dsome reason
@@ -1145,17 +1145,17 @@
 
 2005-10-17  Jakub Steiner <jimmac@ximian.com>
 
-	* audio-card.svg: 
-	* camera-photo.svg: 
-	* camera-video.svg: 
-	* computer.svg: 
-	* document-new.svg: 
-	* drive-cdrom.svg: 
-	* emblem-photos.svg: 
-	* help-browser.svg: 
-	* evolution.svg: 
-	* internet-news-reader.svg: 
-	* media-cdrom.svg: 
+	* audio-card.svg:
+	* camera-photo.svg:
+	* camera-video.svg:
+	* computer.svg:
+	* document-new.svg:
+	* drive-cdrom.svg:
+	* emblem-photos.svg:
+	* help-browser.svg:
+	* evolution.svg:
+	* internet-news-reader.svg:
+	* media-cdrom.svg:
 	* system-software-update.svg: fix the metadata (license)
 
 2005-10-17  Jakub Steiner <jimmac@ximian.com>
@@ -1226,11 +1226,11 @@
 	* scalable/*/Makefile.am: Add extra code to install-data-local so that
 	we can generate large scale png images at install time if the option
 	was enabled during configure
-	
+
 2005-10-14  Jakub Steiner <jimmac@ximian.com>
 
 	* */actions/edit-paste*: add content and bent corner.
-	
+
 2005-10-13  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Reduce intltool requirement to 0.33
@@ -1263,7 +1263,7 @@
 	* Makefile.am:
 	* */*/Makefile.am: Need to prepend $(DESTDIR) to some references
 	to $(themedir) so that we can build packages
-	
+
 2005-10-06  Rodney Dawes  <dobey@novell.com>
 
 	* COPYING: Replace the GPL file with CC Attribution Share-alike
@@ -1338,7 +1338,7 @@
 	Update to use the configure defined $(themedir)
 	Clean up to use variables for size and context as well to make it
 	easier to maintain all the Makefiles
-	
+
 	* 22x22/*/Makefile.am: 	Update to use the configure defined $(themedir)
 	Clean up to use variables for size and context as well to make it
 	easier to maintain all the Makefiles
@@ -1348,11 +1348,11 @@
 2005-10-06  Jakub Steiner <jimmac@ximian.com>
 
 	* x-office-address-book: yay, this was easy! ;)
-	
+
 2005-09-27  Rodney Dawes  <dobey@novell.com>
 
 	* 22x22/categories/Makefile.am: png not svg for bitmap icons
-	
+
 2005-09-27  Rodney Dawes  <dobey@novell.com>
 
 	* 22x22/categories/Makefile.am:
@@ -1373,7 +1373,7 @@
 	* 22x22/categories:
 	* scalable/categories: new section
 	* preferences: new icon
-	
+
 2005-09-22  Jakub Steiner <jimmac@ximian.com>
 
 	* accessories-text-editor
@@ -1397,11 +1397,11 @@
 	* preferences-desktop-wallpaper:
 	* preferences-desktop-screensaver: based on garrett's control
 	  panel bitmap
-	
+
 2005-09-06  Jakub Steiner <jimmac@ximian.com>
 
 	* multimedia-volume-control: for the mixer
-	
+
 2005-08-18  Jakub Steiner <jimmac@ximian.com>
 
 	* devices/printer: lighten up
@@ -1429,7 +1429,7 @@
 
 	* apps/system-users: pulling this name out of my sleeve,
 	  but the image will be extremely re-usable.
-	
+
 2005-06-06  Rodney Dawes  <dobey@novell.com>
 
 	* scalable/apps/accessories-calculator.svg:
@@ -1450,12 +1450,12 @@
 2005-06-03  Jakub Steiner <jimmac@ximian.com>
 
 	* office-calendar: app icon
-	
+
 2005-05-25  Jakub Steiner <jimmac@ximian.com>
 
 	* x-directory-remote-workgroup
 	* x-directory-remote-server:new additions (+mimetype xcfs)
-	
+
 2005-05-24  Rodney Dawes  <dobey@novell.com>
 
 	* configure.ac: Fix the error to reference icon-naming-utils rather

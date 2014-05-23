@@ -146,7 +146,7 @@ scalable/places/Makefile
 scalable/status/Makefile
 po/Makefile.in
 svg2png.sh
-])	
+])
 
 AC_OUTPUT
 

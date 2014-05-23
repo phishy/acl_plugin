@@ -144,4 +144,3 @@ function setup() {
   </tr>
 </table>
 <script>setup();</script>
-      
